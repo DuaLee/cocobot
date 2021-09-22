@@ -1,0 +1,1 @@
+C:/Users/Aiden/AppData/Local/Programs/Python/Python39/python.exe ./basic_voice.py
