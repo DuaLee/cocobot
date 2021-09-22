@@ -211,7 +211,7 @@ class Music(commands.Cog):
 
 bot = commands.Bot(
     command_prefix=commands.when_mentioned_or( "!", "-" ),
-    help_command=None,
+    # help_command=None,
     description="CocoBot Commands:",
 )
 
