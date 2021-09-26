@@ -61,7 +61,7 @@ class YTDLSource(discord.PCMVolumeTransformer):
         return cls(discord.FFmpegPCMAudio(filename, **ffmpeg_options), data=data)
 
 
-class Fun(commands.Cog):
+class Utility(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
     
@@ -224,7 +224,7 @@ async def on_ready():
 
 
 bot.add_cog(Music(bot))
-bot.add_cog(Fun(bot))
+bot.add_cog(Utility(bot))
 
 # get bot token from local env file
 from decouple import config
