@@ -1,6 +1,8 @@
 # CocoBot
 ## Overview
-A lightweight music and utility bot written in Python.
+A lightweight music and utility bot for Discord communities written in Python.
+
+This repository only contains the backend source code. Execution and hosting will be done by the user.
 
 ## Usage
 Prefixes: `!`, `-`
